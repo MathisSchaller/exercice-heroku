@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 5000 // this is very important
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.send('Accueil, bienvenue sur cette API RESTful')
 })
 
 app.listen(PORT, function () {
